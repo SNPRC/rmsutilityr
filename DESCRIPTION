@@ -30,7 +30,7 @@ Suggests:
     testthat
 Encoding: UTF-8
 License: MIT + file LICENSE
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.3
 LazyData: TRUE
 VignetteBuilder: knitr
 URL: https://github.com/rmsharp/rmsutilityr

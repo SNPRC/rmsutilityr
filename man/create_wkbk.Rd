@@ -4,7 +4,13 @@
 \alias{create_wkbk}
 \title{Creates an Excel workbook with worksheets.}
 \usage{
-create_wkbk(file, df_list, sheetnames, create = TRUE)
+create_wkbk(
+  file,
+  df_list,
+  sheetnames,
+  create = TRUE,
+  perl_path = "c:/Perl/Perl/bin/perl"
+)
 }
 \arguments{
 \item{file}{filename of workbook to be created}
@@ -17,6 +23,8 @@ create_wkbk(file, df_list, sheetnames, create = TRUE)
 already exist (default is FALSE). Note that create = TRUE has
 no effect if the specified file exists, i.e. an existing file is
 loaded and not being recreated if create = TRUE.}
+
+\item{perl_path}{Specifies the path to the perl executable}
 }
 \description{
 Creates an Excel workbook with worksheets.
